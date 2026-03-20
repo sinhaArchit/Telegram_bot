@@ -1,6 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
-
+import os
+TOKEN = os.getenv("TOKEN")
 TOKEN = "YOUR_BOT_TOKEN"
 
 # Your file_ids
