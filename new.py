@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
 
-TOKEN = "8784449458:AAEj8zGE0B-BqGo5NzmPtCarK15Z6sP8M6Y"
+TOKEN = "YOUR_BOT_TOKEN"
 
 # Your file_ids
 VIDEO_ID = "BAACAgUAAxkBAAMQab2bVb3RxPKah3buIQKUB58ZVIoAAvkgAAIlWelVtockIScpKCE6BA"
