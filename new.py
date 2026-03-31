@@ -1,12 +1,12 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ChatJoinRequestHandler, ContextTypes
 
-TOKEN = "8784449458:AAEj8zGE0B-BqGo5NzmPtCarK15Z6sP8M6Y"
+TOKEN = "8784449458:AAHlJ7YtRSAJsxn3BAPaBSpiclqPfmgUi7A"
 
-# Your file_ids
-VIDEO_ID = "BAACAgUAAxkBAAMQab2bVb3RxPKah3buIQKUB58ZVIoAAvkgAAIlWelVtockIScpKCE6BA"
-AUDIO_ID = "CQACAgUAAxkBAAMOab2bMiXjPpCe-hiYVpUak5mupQcAAvcgAAIlWelV7a_xGZ-GJ6o6BA"
-APK_ID = "BQACAgUAAxkBAAMSab2bdTsbxv_EpBWsgp1SNXRCR3cAAvogAAIlWelVKhDy5tOnOWU6BA"
+# Your UPDATED file_ids
+VIDEO_ID = "BAACAgUAAxkBAAICdmnLi_cuDu0tpmomDvfRmXL1ITwnAALtIwAC00BZVjy0fbBP8pGqOgQ"
+AUDIO_ID = "CQACAgUAAxkBAAICeGnLjBVtwOnB4iGRtLCcwgLzleXdAALzHAACXGvxVQU1r_kweS2UOgQ"
+APK_ID = "BQACAgUAAxkBAAICdGnLi9EsDyO6jtgz-ZIif66ir5WbAAIBIAACSZ9gVvC_cAvQivc9OgQ"
 
 async def handle_join_request(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user = update.chat_join_request.from_user
