@@ -28,7 +28,7 @@ APK, Video aur Voice Guide niche diya hai 👇''')
     await context.bot.send_video(chat_id=chat_id, video=VIDEO_ID , caption='''👍 Full video watch karo 💥💥
 
 🔗Link:
-https://bdggame5.com//#/register?invitationCode=2176818821310''')
+https://www.jaiclub01.com/#/register?invitationCode=24884129118''')
 
     await context.bot.send_document(chat_id=chat_id, document=APK_ID, caption='''👍 Full video watch karo 💥💥
 
