@@ -14,9 +14,6 @@ async def handle_join_request(update: Update, context: ContextTypes.DEFAULT_TYPE
 
     name = user.first_name
 
-    # Approve request (optional)
-    await update.chat_join_request.approve()
-
     # Send message
     await context.bot.send_message(chat_id=chat_id, text=f'''Hello dear {name}👋
 Tumhari Join Request mil gayi hai ✅
